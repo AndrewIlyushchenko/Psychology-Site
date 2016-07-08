@@ -6,4 +6,5 @@
 out
 gen
 # Created by .ignore support plugin (hsz.mobi)
+/bower_components
 /node_modules
