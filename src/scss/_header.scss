@@ -1,18 +1,33 @@
 header {
-  .row {
+  margin-top: 10px;
     .logo {
+      text-align: center;
       img {
-        width: 172px;
-        height: 172px;
+
       }
     }
     .header_text {
-      background-color: black;
       height: 172px;
+      .text1 {
+        @media screen and (max-width: 992px) {
+          p,.btn,input,div,span,h4 {
+            font-size: 95%;
+          }
+        }
+
+        @media screen and (max-width: 768px) {
+          p,.btn,input,div,span,h4 {
+            font-size: 90%;
+          }
+        }
+
+      }
+      .text2 {
+        font-size: 36px;
+      }
     }
     .header_info {
-      background-color: green;
       height: 172px;
     }
-  }
+
 }

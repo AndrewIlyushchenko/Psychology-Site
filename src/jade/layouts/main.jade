@@ -2,18 +2,22 @@ doctype html
 html(lang='ru')
     head
         block title
-            title Internet magazine
+            title Psychology-Site
             meta(charset='utf-8')
             meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
         block styles
-            link(href='bower_components/normalize-css/normalize.css' rel='stylesheet')
-            link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css' rel='stylesheet')
-            link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet')
+            link(href='libraries/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet')
+            link(href='libraries/owl-carousel/owl-carousel/owl.carousel.css' rel='stylesheet')
+            link(href='libraries/owl-carousel/owl-carousel/owl.theme.css' rel='stylesheet')
+            link(href='libraries/owl-carousel/owl-carousel/owl.transitions.css' rel='stylesheet')
             link(href='css/style.css' rel='stylesheet')
 
     body
         block content
         script(src='js/app.min.js')
-        script(src='/bower_components/jquery/dist/jquery.min.js')
-        script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"')
+        script(src='libraries/jquery/dist/jquery.js')
+        script(src='libraries/bootstrap/dist/js/bootstrap.min.js')
+        script(src='libraries/owl-carousel/owl-carousel/owl.carousel.min.js')
+
+
 
