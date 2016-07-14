@@ -1,6 +1,6 @@
 .row
     nav
-        .col-lg-12.col-md-12
+        .col-lg-12.col-md-12.hidden-sm.hidden-xs
             ul.nav.nav-pills
                 li(role='presentation' class='active')
                     a(href='#') Главная
@@ -12,6 +12,21 @@
                     a(href='#') Сертификаты
                 li(role='presentation')
                     a(href='#') Контакты
+    .hidden-lg.hidden-md.col-sm-12.col-xs-12.hidden-menu
+        button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+            | Меню
+        ul.dropdown-menu
+            li(role='presentation')
+                a(href='#') Главная
+            li(role='presentation')
+                a(href='#') О терапии
+            li(role='presentation')
+                a(href='#') Блог
+            li(role='presentation')
+                a(href='#') Сертификаты
+            li(role='presentation')
+                a(href='#') Контакты
+
 
 
 

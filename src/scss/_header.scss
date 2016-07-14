@@ -7,27 +7,42 @@ header {
       }
     }
     .header_text {
-      height: 172px;
+      max-height: 172px;
+      font-weight: bold;
+      color: #515151;
       .text1 {
-        @media screen and (max-width: 992px) {
-          p,.btn,input,div,span,h4 {
-            font-size: 95%;
-          }
-        }
-
-        @media screen and (max-width: 768px) {
-          p,.btn,input,div,span,h4 {
-            font-size: 90%;
-          }
-        }
-
+        font-size: 30px;
       }
+
       .text2 {
         font-size: 36px;
       }
+      .text3 {
+        font-size: 24px;
+      }
+      @media screen and (max-width: 768px) {
+        .text1 {
+          font-size: 13px;
+        }
+        .text2 {
+          font-size: 15px;
+        }
+        .text3 {
+          font-size: 11px;
+        }
+      }
     }
     .header_info {
-      height: 172px;
+      max-height: 172px;
+      .button {
+        .btn {
+          width: 100%;
+        }
+
+      }
+
+
     }
+
 
 }
