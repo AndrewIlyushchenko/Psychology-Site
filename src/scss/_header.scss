@@ -34,9 +34,40 @@ header {
     }
     .header_info {
       max-height: 172px;
+      .phone {
+        font-size: 20px;
+      }
+
+        a {
+          font-size: 20px;
+          color: #515151;
+          text-decoration: none;
+          &:hover {
+            color: #C9302C;
+            text-decoration: none
+          }
+        }
+
+      @media screen and (max-width: 768px) {
+        .phone {
+          font-size: 13px;
+        }
+        a {
+            font-size: 13px;
+        }
+      }
+      @media screen and (max-width: 1200px) and (min-width: 992px) {
+        .phone {
+          font-size: 17px;
+        }
+        a {
+          font-size: 17px;
+        }
+      }
       .button {
         .btn {
           width: 100%;
+
         }
 
       }
