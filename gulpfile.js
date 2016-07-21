@@ -83,11 +83,11 @@ gulp.task('img', function(){
 });
 
 // ----------------------------------------------------------------
-gulp.task('minify-css', function() {
-    return gulp.src('dist/css/style.css')
-        .pipe(cleanCSS({compatibility: 'ie8'}))
-        .pipe(gulp.dest('dist/css/'));
-});
+//gulp.task('minify-css', function() {
+   // return gulp.src('dist/css/style.css')
+    //    .pipe(cleanCSS({compatibility: 'ie8'}))
+     //   .pipe(gulp.dest('dist/css/'));
+//});
 // ----------------------------------------------------------------
 
 // Compile JS

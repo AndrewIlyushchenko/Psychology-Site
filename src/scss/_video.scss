@@ -1,0 +1,11 @@
+.video {
+  margin-top: 10px;
+  max-height: 315px;
+  max-width: 560px;
+  width: auto;
+  height: 100%;
+  iframe.embed-responsive-item {
+    max-height: 315px;
+    max-width: 560px;
+  }
+}

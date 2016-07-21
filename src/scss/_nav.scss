@@ -1,7 +1,15 @@
 .navigation {
   background-color: grey;
-}
+  margin-bottom: 10px;
+  margin-top: 10px;
+  li {
+    a {
+      border-radius: 0;
+      color: white;
+      &:hover {
+        background-color: #0f0f0f;
+      }
+    }
+  }
 
-.hidden-menu {
-  width: 100%;
 }

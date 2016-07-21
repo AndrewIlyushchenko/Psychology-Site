@@ -10,15 +10,16 @@ header {
       max-height: 172px;
       font-weight: bold;
       color: #515151;
+      font-family: 'Gunny Rewritten';
       .text1 {
-        font-size: 30px;
+        font-size: 40px;
       }
 
       .text2 {
-        font-size: 36px;
+        font-size: 56px;
       }
       .text3 {
-        font-size: 24px;
+        font-size: 34px;
       }
       @media screen and (max-width: 768px) {
         .text1 {
